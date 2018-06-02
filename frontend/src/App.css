@@ -1,0 +1,43 @@
+body {
+  background-image: url("mic_2.jpg");
+  font-family: cursive;
+}
+
+
+.site-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  
+}
+
+.header {
+  margin-top: 50px;
+  font-size: 60px;
+  font-family: cursive;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#playButton {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+  margin-left: 350px;
+
+}
+    
+.songTitle {
+  margin-left: 350px;
+  margin-top: 45px;
+}
