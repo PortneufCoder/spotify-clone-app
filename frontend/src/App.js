@@ -85,7 +85,7 @@ class App extends Component {
   nextButton = () => {
     let useID = this.state.songPosition
     if (useID === this.state.songs.length - 1) {
-      useID: 0
+      useID = 0
       this.setState({
         songPosition: 0
       })
