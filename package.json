@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "description": "test-heroku-deploy",
   "main": "index.js",
+   "dependencies": {
+    "axios": "^0.18.1",
+    "handlebars": "^4.5.3",
+    "js-yaml": "^3.13.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1"
+  },
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "react-scripts start" && "node index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom" && "echo \"Error: no test specified\" && exit 1,
+    "eject": "react-scripts eject",
   },
   "repository": {
     "type": "git",
