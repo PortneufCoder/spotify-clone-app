@@ -1,0 +1,22 @@
+{
+  "name": "mini-music-player",
+  "version": "1.0.0",
+  "description": "test-heroku-deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PortneufCoder/spotify-clone-app.git"
+  },
+  "author": "victor-ajani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PortneufCoder/spotify-clone-app/issues"
+  },
+  "engines": {
+    "node": "11.x"
+  }
+  "homepage": "https://github.com/PortneufCoder/spotify-clone-app#readme"
+}
